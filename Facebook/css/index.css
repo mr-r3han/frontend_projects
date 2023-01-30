@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(227, 227, 255);
+}
+.box1{
+    display: inline-block;
+    /* padding: 200px 50px 50px 100px;  */
+    text-align: left;
+    /* border: 2px solid black; */
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 500px;
+    height: 600px;
+}
+
+.logobanner img{
+    /* border: solid 2px black; */
+    height: 80px;
+    width: 300px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.box2{
+    float: right;
+    width: 50%;
+    height: 600px;
+    display: block;
+}
+
+.form1{
+    margin: auto;
+    text-align: center;
+    border: 2px solid transparent;
+    width: 300px;
+    height: 300px;
+    padding: 10px 20px 10px  20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px  rgb(185, 185, 185) ;
+
+}
+
+#email {
+    border:solid 0.2px gray;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+    display: flexbox;
+    width: 250px;
+    height: 50px;
+}
+#pass {
+    margin-bottom: 8px;
+    border:solid 0.2px gray;
+    border-radius: 8px;
+    display:flexbox;
+    width: 250px;
+    height: 50px;
+    
+}
+
+#btn-submit{
+    margin-bottom: 8px;
+    
+    border-color: transparent;
+    border-radius: 8px;
+    width: 250px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(77, 154, 241);
+    color: white;
+    
+}
+
+#btn-submit2{
+    margin-top: 8px;
+    border-radius: 8px;
+    width: 250px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(45, 187, 92);
+    color: white;
+    border-color: transparent;
+    
+}
+
+.box2{
+    padding: 120px 10px 0 40px;
+    width: 400px;
+}
+
+.page1{
+    padding: 0 180px 0 0;
+}
+
+p{
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 15px;
+}
+#last{
+    color: inherit;
+    font-weight: bold;
+}
+/* 
+hr{
+    border: 0.1px solid gray;
+} */
+
+/* :hover{
+    cursor: pointer;
+} */
+

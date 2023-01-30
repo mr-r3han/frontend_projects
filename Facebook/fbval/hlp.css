@@ -1,0 +1,20 @@
+.frm{
+    border: 1px solid black;
+    width: 450px;
+    height: 500px;
+    margin: auto;
+}
+
+input{
+    width: 410px;
+    height: 30px;
+    margin: 10px;
+}
+
+#fname{
+    width: 190px;
+    /* margin: 10px; */
+}
+#lname{
+    width: 190px;
+}

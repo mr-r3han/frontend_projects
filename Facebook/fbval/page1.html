@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="./page1.css">
+</head>
+
+<body>
+    <div class="popup">
+
+        <div>
+            <div class="frm">
+                <div class="hd">
+                    <h1>Sign Up</h1>
+                    <p>It's quick and easy.</p>
+                    <hr>
+                </div>
+                <form action="" onsubmit="return validation1()">
+                    <div class="nam">
+                        <div>
+                            <input type="text" name="setfname" placeholder="first name" id="fname">
+                            <span class="txt1"></span>
+                        </div>
+                        <div>
+                            <input type="text" name="setlname" placeholder="last name" id="lname">
+                            <span class="txt2"></span>
+                        </div>
+                    </div>
+                    <input type="text" name="setemail" placeholder="Email adress" id="email">
+                    <input type="password" name="setpass" placeholder="Enter password" id="pass">
+                    <label for="datepik"><small>date of birth </small></label>
+                    <div class="dpik">
+                        <select name="day" id="day">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                        </select>
+                        <select name="month" id="month">
+                            <option value="1">jan</option>
+                            <option value="1">feb</option>
+                            <option value="2">mar</option>
+                            <option value="3">apr</option>
+                            <option value="4">mar</option>
+                            <option value="5">apr</option>
+                            <option value="6">may</option>
+                            <option value="7">jun</option>
+                            <option value="8">jul</option>
+                            <option value="9">aug</option>
+                        </select>
+                        <select name="year" id="year">
+                            <option value="1">2022</option>
+                            <option value="1">2021</option>
+                            <option value="2">2020</option>
+                            <option value="3">2019</option>
+                            <option value="4">2018</option>
+                            <option value="5">2017</option>
+                            <option value="6">2016</option>
+                            <option value="7">2015</option>
+                            <option value="8">2014</option>
+                            <option value="9">2013</option>
+                        </select>
+                    </div>
+                    <label for="radio"><small>date of birth </small></label>
+                    <div class="rado">
+                        <div class="cont">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" checked>
+                        </div>
+                        <div class="cont">
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female">
+                        </div>
+                        <div class="cont">
+                            <label for="others">Others</label>
+                            <input type="radio" name="gender" id="others">
+                        </div>
+                    </div>
+                    
+                    <input type="submit" name="login" id="btn-submit" value="Log in">
+                </form>
+                <small>People who use our service may have uploaded your contact information to Facebook. <a href="#">learn more..</a> </small><br>
+                <small>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</small>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
